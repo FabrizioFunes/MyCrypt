@@ -1,0 +1,20 @@
+/* === Estilos para Transacciones (transaccion.css) === */
+.form-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #34d399;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #10b981;
+}

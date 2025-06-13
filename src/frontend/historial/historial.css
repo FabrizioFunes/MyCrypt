@@ -1,0 +1,23 @@
+/* === Estilos para Historial de transacciones (historial.css) === */
+.table th {
+  background-color: #f97316;
+  color: white;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f9fafb;
+}
+
+.modal-header {
+  background-color: #34d399;
+  color: white;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #f97316;
+  border: none;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #ea580c;
+}

@@ -1,5 +1,25 @@
 [
   {
+    "ContainingType": "CriptoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Cripto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExchangeController",
+    "Method": "GetAll",
+    "RelativePath": "api/Exchange",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "PortfolioController",
     "Method": "ObtenerPortfolio",
     "RelativePath": "api/Portfolio/{usuarioId}",
@@ -55,6 +75,32 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TransaccionesController",
+    "Method": "GetByUsuario",
+    "RelativePath": "api/Transacciones/usuario/{idUsuario}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idUsuario",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UsuariosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

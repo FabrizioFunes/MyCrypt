@@ -30,9 +30,9 @@ public class UsuariosController : ControllerBase
 
         var claims = new[]
         {
-            new Claim("UsuarioId", usuario.Id.ToString()),
-            new Claim(ClaimTypes.Name, usuario.Nombre)
-        };
+        new Claim("UsuarioId", usuario.Id.ToString()),
+        new Claim(ClaimTypes.Name, usuario.Nombre)
+    };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -45,8 +45,14 @@ public class UsuariosController : ControllerBase
             signingCredentials: creds
         );
 
-        return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
+        // ✅ Devolvemos también el ID
+        return Ok(new
+        {
+            token = new JwtSecurityTokenHandler().WriteToken(token),
+            id = usuario.Id
+        });
     }
+
 
     [HttpGet("{id}/pesos")]
     public async Task<ActionResult<decimal>> ObtenerPesosDisponibles(int id)
@@ -59,8 +65,15 @@ public class UsuariosController : ControllerBase
         return Ok(usuario.TotalPesos);
     }
 
+    [HttpGet]
+    public async Task<ActionResult> GetAll()
+    {
+        var usuarios = await _context.Usuarios
+            .Select(u => new { u.Id, u.Nombre })
+            .ToListAsync();
 
-
+        return Ok(usuarios);
+    }
 
 
 

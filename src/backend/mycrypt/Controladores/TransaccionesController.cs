@@ -132,4 +132,34 @@ public class TransaccionesController : ControllerBase
 
         return Ok(dto);
     }
+
+[HttpGet("usuario/{idUsuario}")]
+public async Task<ActionResult> GetByUsuario(int idUsuario)
+{
+    var transacciones = await _context.Transacciones
+        .Where(t => t.IdUsuario == idUsuario)
+        .Include(t => t.Cripto)
+        .Include(t => t.Exchange)
+        .Include(t => t.Usuario)
+        .Select(t => new {
+            t.Id,
+            t.Tipo,
+            t.Fecha,
+            t.Cantidad,
+            t.MontoARS,
+            t.IdExchange,
+            Exchange = t.Exchange != null ? new { t.Exchange.Id, t.Exchange.Nombre } : null,
+            t.IdCripto,
+            Cripto = t.Cripto != null ? new { t.Cripto.Id, t.Cripto.Nombre } : null,
+            t.IdUsuario,
+            Usuario = t.Usuario != null ? new { t.Usuario.Id, t.Usuario.Nombre } : null
+        })
+        .ToListAsync();
+
+    return Ok(transacciones);
+}
+
+
+
+
 }

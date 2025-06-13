@@ -1,0 +1,19 @@
+/* === Estilos para Portfolio (portfolio.css) === */
+.resumen {
+  background-color: #fde68a;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.cripto-card {
+  border-radius: 0.5rem;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btc { background-color: #f97316; }
+.eth { background-color: #6366f1; }
+.usdc { background-color: #3b82f6; }
+.usdt { background-color: #10b981; }
+.sol { background-color: #06b6d4; }

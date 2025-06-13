@@ -5,6 +5,30 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/Cripto": {
+      "get": {
+        "tags": [
+          "Cripto"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Exchange": {
+      "get": {
+        "tags": [
+          "Exchange"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Portfolio/{usuarioId}": {
       "get": {
         "tags": [
@@ -92,6 +116,29 @@
         }
       }
     },
+    "/api/Transacciones/usuario/{idUsuario}": {
+      "get": {
+        "tags": [
+          "Transacciones"
+        ],
+        "parameters": [
+          {
+            "name": "idUsuario",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Usuarios/login": {
       "post": {
         "tags": [
@@ -162,6 +209,18 @@
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "/api/Usuarios": {
+      "get": {
+        "tags": [
+          "Usuarios"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
           }
         }
       }
