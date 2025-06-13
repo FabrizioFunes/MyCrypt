@@ -45,7 +45,6 @@ public class UsuariosController : ControllerBase
             signingCredentials: creds
         );
 
-        // ✅ Devolvemos también el ID
         return Ok(new
         {
             token = new JwtSecurityTokenHandler().WriteToken(token),

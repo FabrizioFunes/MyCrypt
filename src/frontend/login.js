@@ -62,7 +62,6 @@ function mostrarMensaje(texto, tipo) {
   div.classList.remove("d-none");
 }
 
-//Función para decodificar el JWT
 function parseJwt(token) {
   const base64Url = token.split('.')[1];
   const base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');

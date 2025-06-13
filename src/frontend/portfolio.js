@@ -40,7 +40,6 @@ fetch(`https://localhost:7050/api/Portfolio/${usuarioId}`)
     alert("Error al cargar el portafolio.");
   });
   
-// Obtener pesos disponibles del usuario
 fetch(`https://localhost:7050/api/Usuarios/${usuarioId}/pesos`)
   .then(r => r.json())
   .then(pesos => {

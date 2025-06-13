@@ -1,12 +1,11 @@
-/* === Paleta de colores inspirada en el logo ===
-   - Naranja: #f97316 (orange-500)
-   - Verde menta: #34d399 (emerald-400)
-   - Blanco puro: #ffffff
-   - Gris suave: #f3f4f6
-   - Gris oscuro: #111827
+/* Paleta de colores inspirada en el logo
+  - Naranja: #f97316 (orange-500)
+  - Verde menta: #34d399 (emerald-400)
+  - Blanco puro: #ffffff
+  - Gris suave: #f3f4f6
+  - Gris oscuro: #111827
 */
 
-/* === 1. Estilos generales (base.css) === */
 body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f3f4f6;
@@ -34,7 +33,6 @@ body {
   color: #34d399;
 }
 
-/* === 2. Portafolio (portfolio.css) === */
 .resumen {
   background-color: #fde68a;
   padding: 1rem;
@@ -54,7 +52,6 @@ body {
 .usdt { background-color: #10b981; }
 .sol { background-color: #06b6d4; }
 
-/* === 3. Transacciones (transaccion.css) === */
 .form-section {
   background-color: #ffffff;
   padding: 2rem;
@@ -75,7 +72,6 @@ body {
   background-color: #10b981;
 }
 
-/* === 4. Historial (historial.css) === */
 .table th {
   background-color: #f97316;
   color: white;

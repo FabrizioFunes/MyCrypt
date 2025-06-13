@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\exchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\exchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -26,63 +9,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 376,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TransaccionesController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\TransaccionesController.cs",
-              "RelativeDocumentMoniker": "Controladores\\TransaccionesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\TransaccionesController.cs",
-              "RelativeToolTip": "Controladores\\TransaccionesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T18:47:36.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuariosController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\UsuariosController.cs",
-              "RelativeDocumentMoniker": "Controladores\\UsuariosController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\UsuariosController.cs",
-              "RelativeToolTip": "Controladores\\UsuariosController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T13:25:33.082Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ExchangeController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\ExchangeController.cs",
-              "RelativeDocumentMoniker": "Controladores\\ExchangeController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\ExchangeController.cs",
-              "RelativeToolTip": "Controladores\\ExchangeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T21:39:44.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CriptoController.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\CriptoController.cs",
-              "RelativeDocumentMoniker": "Controladores\\CriptoController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\CriptoController.cs",
-              "RelativeToolTip": "Controladores\\CriptoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T21:39:29.939Z",
-              "EditorCaption": ""
             }
           ]
         },

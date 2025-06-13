@@ -16,7 +16,6 @@ namespace mycrypt.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Precisión para campos monetarios
             modelBuilder.Entity<Usuario>()
                 .Property(u => u.TotalPesos)
                 .HasPrecision(18, 2);

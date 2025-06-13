@@ -39,7 +39,7 @@ public class PortfolioController : ControllerBase
         foreach (var d in datos)
         {
             var cripto = criptos[d.IdCripto];
-            var precio = await _criptoYaService.ObtenerPrecioAsync(cripto.Codigo.ToLower(), "buenbit"); // o binance/bybit
+            var precio = await _criptoYaService.ObtenerPrecioAsync(cripto.Codigo.ToLower(), "buenbit"); 
             decimal valorEnPesos = precio.HasValue ? precio.Value * d.Cantidad : 0;
 
             result.Add(new PortfolioDto

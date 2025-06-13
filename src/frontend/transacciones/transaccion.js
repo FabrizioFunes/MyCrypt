@@ -6,7 +6,6 @@ if (!usuarioId) {
   window.location.href = "login.html";
 }
 
-//Cargar criptos y exchanges al cargar la página
 window.onload = () => {
   cargarFechaActual();
   cargarCriptos();
@@ -14,9 +13,9 @@ window.onload = () => {
 };
 
 function cargarFechaActual() {
-  const ahora = new Date().toISOString(); // ISO con zona horaria UTC
+  const ahora = new Date().toISOString(); 
   document.getElementById("fechaVisual").value = new Date().toLocaleString();
-  localStorage.setItem("fechaActual", ahora); // guardamos ISO para el backend
+  localStorage.setItem("fechaActual", ahora); 
 }
 
 function cargarCriptos() {
@@ -81,8 +80,8 @@ function enviarTransaccion() {
       if (!res.ok) {
         return mostrarMensaje(data?.title || "Error al procesar la transacción", "danger");
       }
-      mostrarMensaje("Transacción creada correctamente ✅", "success");
-      cargarFechaActual(); // Actualiza hora después de cada envío
+      mostrarMensaje("Transacción creada correctamente ", "success");
+      cargarFechaActual(); 
     })
     .catch(err => {
       console.error(err);

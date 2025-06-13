@@ -1,0 +1,61 @@
+CREATE TABLE Usuarios (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100) NOT NULL,
+    Contrasenia NVARCHAR(255) NOT NULL,
+    TotalPesos DECIMAL(18,2) NOT NULL DEFAULT 0
+);
+
+CREATE TABLE Cripto (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(50) NOT NULL,
+    Codigo NVARCHAR(10) NOT NULL
+);
+
+CREATE TABLE Exchange (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nombre NVARCHAR(100) NOT NULL,
+    URL NVARCHAR(255)
+);
+
+CREATE TABLE Transacciones (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Tipo NVARCHAR(10) NOT NULL CHECK (Tipo IN ('Compra', 'Venta')),
+    Fecha DATETIME NOT NULL,
+    Cantidad DECIMAL(18,8) NOT NULL CHECK (Cantidad > 0),
+    MontoARS DECIMAL(18,2) NOT NULL CHECK (MontoARS >= 0),
+    IdExchange INT NOT NULL,
+    IdCripto INT NOT NULL,
+    IdUsuario INT NOT NULL,
+    FOREIGN KEY (IdExchange) REFERENCES Exchange(Id),
+    FOREIGN KEY (IdCripto) REFERENCES Cripto(Id),
+    FOREIGN KEY (IdUsuario) REFERENCES Usuarios(Id)
+);
+
+CREATE INDEX IX_Transacciones_UsuarioFecha ON Transacciones(IdUsuario, Fecha DESC);
+CREATE INDEX IX_Transacciones_CriptoFecha ON Transacciones(IdCripto, Fecha DESC);
+
+CREATE VIEW Vista_CarteraActual AS
+SELECT
+    t.IdUsuario,
+    t.IdCripto,
+    c.Nombre AS CriptoNombre,
+    SUM(CASE WHEN t.Tipo = 'Compra' THEN t.Cantidad ELSE -t.Cantidad END) AS CantidadDisponible
+FROM Transacciones t
+JOIN Cripto c ON c.Id = t.IdCripto
+GROUP BY t.IdUsuario, t.IdCripto, c.Nombre
+HAVING SUM(CASE WHEN t.Tipo = 'Compra' THEN t.Cantidad ELSE -t.Cantidad END) > 0;
+
+CREATE VIEW VistaHistorialTransacciones AS
+SELECT
+    t.Id,
+    u.Nombre AS Usuario,
+    c.Nombre AS Cripto,
+    e.Nombre AS Exchange,
+    t.Tipo,
+    t.Cantidad,
+    t.MontoARS,
+    t.Fecha
+FROM Transacciones t
+JOIN Usuarios u ON t.IdUsuario = u.Id
+JOIN Cripto c ON t.IdCripto = c.Id
+JOIN Exchange e ON t.IdExchange = e.Id;

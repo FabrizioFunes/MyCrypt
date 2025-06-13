@@ -3,20 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\entidades\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\entidades\\transaccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\entidades\\exchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\entidades\\exchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\entidades\\cripto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\entidades\\cripto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\dtos\\usuarioregistrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\dtos\\usuarioregistrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\dtos\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\dtos\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\dtos\\transaccionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\dtos\\transaccionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\dtos\\transaccionresumendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\dtos\\transaccionresumendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\dtos\\transacciondetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\dtos\\transacciondetalledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\dtos\\transaccioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\dtos\\transaccioncreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\modelos\\dtos\\portfoliodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:modelos\\dtos\\portfoliodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\exchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\exchangecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\portfoliocontroller,cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\portfoliocontroller,cs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\criptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\transaccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|c:\\users\\usuario\\desktop\\inteto 2\\src\\backend\\mycrypt\\controladores\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E3C95EE-E79C-4CA1-A8AD-EA9341C79A2A}|mycrypt.csproj|solutionrelative:controladores\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,41 +82,223 @@
       "DocumentGroups": [
         {
           "DockedHeight": 376,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:29.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\Entidades\\Usuario.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\Entidades\\Usuario.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:25.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Transaccion.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\Entidades\\Transaccion.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Transaccion.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\Entidades\\Transaccion.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Transaccion.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:16.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Exchange.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\Entidades\\Exchange.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Exchange.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\Entidades\\Exchange.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Exchange.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:14.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cripto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\Entidades\\Cripto.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Cripto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\Entidades\\Cripto.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Cripto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:13.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioRegistroDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\UsuarioRegistroDto.cs",
+              "RelativeDocumentMoniker": "Modelos\\DTOs\\UsuarioRegistroDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\UsuarioRegistroDto.cs",
+              "RelativeToolTip": "Modelos\\DTOs\\UsuarioRegistroDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:10.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\UsuarioLoginDto.cs",
+              "RelativeDocumentMoniker": "Modelos\\DTOs\\UsuarioLoginDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\UsuarioLoginDto.cs",
+              "RelativeToolTip": "Modelos\\DTOs\\UsuarioLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:09.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransaccionUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\TransaccionUpdateDto.cs",
+              "RelativeDocumentMoniker": "Modelos\\DTOs\\TransaccionUpdateDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\TransaccionUpdateDto.cs",
+              "RelativeToolTip": "Modelos\\DTOs\\TransaccionUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:08.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransaccionResumenDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\TransaccionResumenDto.cs",
+              "RelativeDocumentMoniker": "Modelos\\DTOs\\TransaccionResumenDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\TransaccionResumenDto.cs",
+              "RelativeToolTip": "Modelos\\DTOs\\TransaccionResumenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:06.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TransaccionDetalleDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\TransaccionDetalleDto.cs",
+              "RelativeDocumentMoniker": "Modelos\\DTOs\\TransaccionDetalleDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\TransaccionDetalleDto.cs",
+              "RelativeToolTip": "Modelos\\DTOs\\TransaccionDetalleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:05.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TransaccionCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\TransaccionCreateDto.cs",
+              "RelativeDocumentMoniker": "Modelos\\DTOs\\TransaccionCreateDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\TransaccionCreateDto.cs",
+              "RelativeToolTip": "Modelos\\DTOs\\TransaccionCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:03.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PortfolioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\PortfolioDto.cs",
+              "RelativeDocumentMoniker": "Modelos\\DTOs\\PortfolioDto.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Modelos\\DTOs\\PortfolioDto.cs",
+              "RelativeToolTip": "Modelos\\DTOs\\PortfolioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:06:02.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:05:46.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PortfolioController,cs.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\PortfolioController,cs.cs",
+              "RelativeDocumentMoniker": "Controladores\\PortfolioController,cs.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\PortfolioController,cs.cs",
+              "RelativeToolTip": "Controladores\\PortfolioController,cs.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCkAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T20:05:14.395Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "TransaccionesController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\TransaccionesController.cs",
               "RelativeDocumentMoniker": "Controladores\\TransaccionesController.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\TransaccionesController.cs*",
-              "RelativeToolTip": "Controladores\\TransaccionesController.cs*",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAAwJ0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\TransaccionesController.cs",
+              "RelativeToolTip": "Controladores\\TransaccionesController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAowDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T18:47:36.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\UsuariosController.cs",
               "RelativeDocumentMoniker": "Controladores\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\UsuariosController.cs",
               "RelativeToolTip": "Controladores\\UsuariosController.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAYwEwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T13:25:33.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "ExchangeController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\ExchangeController.cs",
               "RelativeDocumentMoniker": "Controladores\\ExchangeController.cs",
@@ -73,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "CriptoController.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\inteto 2\\src\\backend\\mycrypt\\Controladores\\CriptoController.cs",
               "RelativeDocumentMoniker": "Controladores\\CriptoController.cs",

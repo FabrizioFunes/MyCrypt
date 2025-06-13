@@ -22,7 +22,6 @@ public class TransaccionesController : ControllerBase
     [HttpPost]
     public async Task<ActionResult> Crear([FromBody] TransaccionCreateDto dto)
     {
-        // Validar que la cantidad sea mayor a 0
         if (dto.Cantidad <= 0)
             return BadRequest("La cantidad debe ser mayor a 0.");
 
@@ -42,16 +41,13 @@ public class TransaccionesController : ControllerBase
 
         if (dto.Tipo == "Compra")
         {
-            // Validar que tenga suficiente dinero
             if (usuario.TotalPesos < monto)
                 return BadRequest("Fondos insuficientes en pesos para realizar la compra.");
 
-            // Restar pesos
             usuario.TotalPesos -= monto;
         }
         else if (dto.Tipo == "Venta")
         {
-            // Calcular criptos disponibles
             var saldoCripto = await _context.Transacciones
                 .Where(t => t.IdUsuario == dto.IdUsuario && t.IdCripto == dto.IdCripto)
                 .SumAsync(t => t.Tipo == "Compra" ? t.Cantidad : -t.Cantidad);
@@ -59,7 +55,6 @@ public class TransaccionesController : ControllerBase
             if (saldoCripto < dto.Cantidad)
                 return BadRequest("No posee suficientes criptomonedas para vender.");
 
-            // Sumar pesos
             usuario.TotalPesos += monto;
         }
         else
